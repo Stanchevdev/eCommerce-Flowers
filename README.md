@@ -1,5 +1,5 @@
 # eCommerse-Flowers
-It's a PHP project. The code is procedural.
+It's a pure PHP project. The code is procedural.
 I made it for a client. He will sell flowers and othe products with it.
 Users can buy flowers, seeds, fertilizers and garden accessories.
 

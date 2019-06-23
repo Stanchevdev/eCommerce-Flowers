@@ -17,3 +17,7 @@ The control panel lets the owner to:
 7. To see which products are requested with total product price calculated by requested quantity.
 
 I have made an effort to make the work with this website easy and I think I did it.
+
+
+IMPORTANT! 
+If you want to download the files and use them locally you need to know that I make changes to the project every day. You can see the updates here >> http://flowermoni.com/index.php.... locally the site will be a little bit different!

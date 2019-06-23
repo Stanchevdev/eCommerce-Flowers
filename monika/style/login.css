@@ -1,0 +1,103 @@
+body{
+  overflow-x:hidden;
+  background-image:url("bcg3.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  margin:0;
+  padding:0;
+
+}
+
+form{
+  width:50%;
+	text-align:center;
+	padding:1%;
+	margin:2% auto;
+  background:#fff;
+  box-shadow:0 0 5px #000;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+input[type=text]{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  margin-bottom:3%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2%;
+	font-size:2.5vw;
+	display:block;
+	border:none;
+	border-bottom:solid 1px #000;
+	background:transparent;
+	text-align:left;
+	width:100%;
+}
+
+input[type=text]:focus{
+  border:none;
+	border-bottom:solid 1px #e6b800;
+	outline:none;
+}
+
+input[type=password]{
+  font-size:2.5vw;
+  margin-bottom:3%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2%;
+	display:block;
+	border:none;
+	border-bottom:solid 1px #000;
+	background:transparent;
+	text-align:left;
+	width:100%;
+}
+
+
+input[type=submit]{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+	margin: 2% auto;
+	font-size:2.5vw;
+	background-color:#1a1a1a;
+  border-radius:2px;
+  border:none;
+  color:#fff;
+	padding:1.5%;
+	width:100%;
+  text-decoration: none;
+  cursor: pointer;
+	transition:all 0.4s;
+	display:block;
+
+}
+
+input[type=submit]:hover{
+  background-color:#4db8ff;
+  color:#000;
+}

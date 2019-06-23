@@ -1,0 +1,258 @@
+body{
+  overflow-x:hidden;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+
+}
+
+.forforms{
+  text-align: center;
+  font-size: 2.4vw;
+  color: #1a1a1a;
+}
+
+.cart{
+  margin: 4% auto;
+  font-size: 2.2vw;
+  width: 60%;
+}
+
+table{
+  width: 100%;
+}
+
+table td{
+  border-bottom: 1px solid #000;
+}
+
+.categorytd{
+  font-size: 2.9vw;
+  border-bottom: 2px solid #000;
+}
+
+
+.deletetd{
+  text-align: center;
+  width: 2%;
+}
+
+
+.delete i{
+  text-align: center;
+  color:red;
+}
+
+form{
+  width:50%;
+	text-align:center;
+	padding:1%;
+	margin:2% auto;
+  background:#fff;
+  box-shadow:0 0 5px #000;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	text-align:left;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+
+}
+
+
+form select{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 2vw;
+  margin: 1% auto;
+  color: #999;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+
+input[type=file]{
+  border:none;
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+input[type=text]{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  margin-bottom:3%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2%;
+	font-size:2.5vw;
+	display:block;
+	border:none;
+	border-bottom:solid 1px #000;
+	background:transparent;
+	text-align:left;
+	width:100%;
+}
+
+input[type=text]:focus{
+  border:none;
+	border-bottom:solid 1px #e6b800;
+	outline:none;
+}
+
+
+input[type=submit]{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+	margin: 2% auto;
+	font-size:2.5vw;
+	background-color:#1a1a1a;
+  border-radius:2px;
+  border:none;
+  color:#fff;
+	padding:1.5%;
+	width:100%;
+  text-decoration: none;
+  cursor: pointer;
+	transition:all 0.4s;
+	display:block;
+
+}
+
+input[type=submit]:hover{
+  background-color:#4db8ff;
+  color:#000;
+}
+
+.textarea{
+  width: 100%;
+  min-height: 200px;
+  font-size: 2.5vw;
+  resize: vertical;
+  color: #000;
+}
+
+.savedlist{
+  margin: 5% auto;
+  margin-top: 3%;
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.showdivs{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color:#4d4d4d;
+  font-size:2.6vw;
+  margin: 2% 4%;
+  width:25%;
+  height:100%;
+  padding: 1%;
+  background-color:#fff;
+  box-shadow:0 0 7px #4d4d4d;
+  border-radius: 5px;
+}
+
+.forpromo{
+  text-decoration: line-through;
+}
+
+.promo{
+  color: red;
+  font-size: 3vw;
+}
+
+
+.showdivs p{
+  text-align: left;
+  margin-left: 2%;
+}
+
+.showdivs a{
+  text-decoration: none;
+  color:#000;
+}
+
+.showbtns{
+  width: 100%;
+}
+
+.showbtns i{
+  font-size: 2.4vw;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.des{
+  font-weight: bold;
+}
+
+span{
+  font-weight: lighter;
+}
+
+.showdivs img{
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.what{
+  display: none;
+  text-align: center;
+  background: #fff;
+  font-size: 2.2vw;
+  padding: 2%;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  box-shadow:0 0 10px #000;
+  z-index: 3;
+}
+
+.what a{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 2.9vw;
+}
+
+.what a:hover{
+  border: 1px solid #3399ff;
+  color: #3399ff;
+}
+
+.what a:last-child{
+  border: none;
+}
+
+.what:target{
+  display: block;
+}

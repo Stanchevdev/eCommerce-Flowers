@@ -1,0 +1,136 @@
+
+.overnav{
+  font-family: 'Great Vibes', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  width: 100%;
+  text-align: left;
+  padding-top: 1%;
+  padding-bottom: 0;
+  background: url(bcghead.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background: linear-gradient(to bottom, #33ccff 0%, #dde7f7 100%); */
+}
+
+.overnav a{
+  margin-left: 2%;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+  font-size: 5.5vw;
+}
+
+/* .overnav img{
+  margin-left: 2%;
+  width: 7%;
+  height: auto;
+} */
+
+
+.nav{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: #73b830;
+  z-index: 997;
+  box-shadow: 0 0 8px #000;
+}
+
+.counter{
+    color:red;
+    font-size: 1.1vw;
+    padding-left:0.3%;
+    vertical-align:top;
+    transition:all 0.2s ease;    
+}
+
+.all:last-child:hover{
+  font-size: 1.7vw;
+  
+}
+
+
+.all:last-child:hover .counter{
+  font-size: 1.5vw;
+  padding-left:0.6%;
+
+}
+
+.all{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7vw;
+  padding-bottom: 1%;
+  transition: all 0.1s ease-in;
+}
+
+.all:hover{
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.tellme{
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7vw;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1%;
+  transition: all 0.4s ease-in;
+
+}
+
+.tellme i{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+
+.tellme:hover i{
+  -webkit-animation: shakenavnav 0.2s linear 0.1s infinite;
+  -moz-animation: shakenav 0.2s linear 0.1s infinite;
+  -o-animation: shakenav 0.2s linear 0.1s infinite;
+  animation: shakenav 0.2s linear 0.1s infinite;
+}
+
+@-webkit-keyframes shakenav {
+  0% {-webkit-transform: rotate(120deg);}
+  50% {-webkit-transform: rotate(90deg);}
+  100% {-webkit-transform: rotate(120deg);}
+}
+
+@-moz-keyframes shakenav {
+  0% {-moz-transform: rotate(120deg);}
+  50% {-moz-transform: rotate(90deg);}
+  100% {-moz-transform: rotate(120deg);}
+}
+
+@-o-keyframes shakenav {
+  0% {-o-transform: rotate(120deg);}
+  50% {-o-transform: rotate(90deg);}
+  100% {-o-transform: rotate(120deg);}
+}
+
+@keyframes shakenav {
+  0% {transform: rotate(120deg);}
+  50% {transform: rotate(90deg);}
+  100% {transform: rotate(120deg);}
+}

@@ -1,0 +1,33 @@
+body{
+  overflow-x:hidden;
+  background-color: #f2f2f2; /* Used if the image is unavailable */
+  font-family: 'Oswald', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.cart{
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1.8vw;
+}
+
+table{
+  width: 100%;
+}
+
+table td{
+  border-bottom: 1px solid #000;
+}
+
+
+.delete{
+  text-align: center;
+  color:red;
+}
+
+#payment{
+  text-align: center;
+  color:#29a329;
+}

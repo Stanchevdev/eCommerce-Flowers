@@ -1,0 +1,135 @@
+footer{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10%;
+  width:100%;
+  background: #18303a;
+  color: #d0d5d7;
+  /* -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); */
+}
+
+.innerf{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.innerf div{
+  width: 30%;
+  margin:4% 4%;
+}
+
+.dostavkap{
+  font-size: 1.6vw;
+}
+
+.dostavka img{
+  height:100px;
+  width:auto;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 4px;
+}
+
+.fbpagediv{
+  text-align: center;
+}
+
+.fb{
+  font-size: 1.6vw;
+  text-transform: none;
+}
+
+.fbpagediv a{
+  font-size: 4vw;
+  color:#009ffd;
+  transition: all 0.2s ease;
+}
+
+.fbpagediv a:hover{
+  color:#fff;
+}
+
+
+.addressh1{
+  font-size: 1.6vw;
+  text-transform: none;
+}
+
+.address{
+  font-size: 1.2vw;
+  text-transform: none;
+}
+
+
+.telh1{
+  font-size: 1.6vw;
+  text-transform: none;
+}
+
+.tel{
+  font-size: 1.2vw;
+  text-transform: none;
+}
+
+
+.problems{
+  font-size: 1vw;
+  text-transform: none;
+}
+
+.problems a{
+  color: #a4a4a4;
+}
+
+.webdiv{
+  margin:0 auto;
+  width: 100%;
+  display: flex;
+  background: rgb(24,48,58);
+  background: -moz-linear-gradient(180deg, rgba(24,48,58,1) 0%, rgba(10,87,103,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(24,48,58,1) 0%, rgba(10,87,103,1) 100%);
+  background: linear-gradient(180deg, rgba(24,48,58,1) 0%, rgba(10,87,103,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18303a",endColorstr="#0a5767",GradientType=1);
+
+}
+
+.copy{
+  margin-right: 2%;
+  margin-left: auto;
+  font-size: 1.1vw;
+  text-transform: none;
+  color: #fff;
+  z-index: 999;
+}
+
+.me{
+  margin-left: 2%;
+  margin-right: auto;
+  font-size: 1.1vw;
+  text-transform: none;
+  color: #fff;
+  z-index: 999;
+
+}
+
+.melink{
+  font-size: 1vw;
+  text-transform: none;
+  color: #fff;
+  z-index: 999;
+  text-decoration: none;
+  text-shadow: 0 0 1px #fff;
+  transition: all 0.2s ease;
+}
+
+.melink:hover{
+  font-size: 1.2vw;
+}
+
+.hiddenlog{
+  text-decoration: none;
+  color:#fff;
+  cursor: default;
+}

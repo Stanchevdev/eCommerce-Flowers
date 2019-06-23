@@ -1,0 +1,38 @@
+body{
+  overflow-x:hidden;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  margin:0;
+  padding:0;
+  font-size: 2vw;
+
+}
+
+.alert{
+    margin: 15% auto;
+    width:auto;
+    background:#1a1a1a;
+    opacity:0.7;
+}
+
+.alert p{
+    font-size:2.7vw;
+    padding-left:4%;
+    padding-right:4%;
+    text-align:center;
+    color:#fff;
+}
+
+.alert a{
+    text-decoration:none;
+    color:green;
+    font-size:3vw;
+}
+
+.alert p{
+    text-align:center;
+}
+
+
